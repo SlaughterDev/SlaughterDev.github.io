@@ -1,9 +1,6 @@
 <html>
 <body>
 <title></title>
-	<audio autoplay id="music">
-  <source src="BGMusic.mp3">
-</audio>
 <table style="width:100%">
   <tr>
     <th><font color="#ffffff">Victim</th></font>
@@ -104,8 +101,16 @@ a:active {
 }
 </style>
 <script type="text/javascript">
-  var audio = document.getElementById("music");
-  audio.volume = 0.2;
+var sound = new Array();
+sound[0]= "BGMusic.mp3"
+sound[1]= "LavenderBeta.mp3"
+sound[2]= "BGMusic.mp3"
+sound[3]= "LavenderBeta.mp3"
+sound[4]= "BGMusic.mp3"
+sound[5]= "LavenderBeta.mp3"
+
+var randomsound = Math.floor(Math.random() * 6);
+document.write ('<audio id="sound" loop autoplay preload><source src= "' + sound[randomsound] + '" hidden=true type="audio/mpeg" autostart=true loop=true>')
 </script>
 <script type="text/javascript">
 if (document.addEventListener) {

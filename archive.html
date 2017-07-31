@@ -117,7 +117,7 @@ function loaded() {
     setInterval(loop, 250);
 }
 var x = 0;
-var titleText = [ "☠", "☠S", "☠Sl", "☠Sla", "☠Slau", "☠Slaug", "☠Slaugh", "☠Slaught", "☠Slaughte", "☠Slaughter☠",];
+var titleText = [ "", "☠", "☠S", "☠Sl", "☠Sla", "☠Slau", "☠Slaug", "☠Slaugh", "☠Slaught", "☠Slaughte", "☠Slaughter", "☠Slaughter☠"];
 function loop() {
     document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
 }
@@ -125,6 +125,6 @@ function loop() {
 
 <script>
   var audio = document.getElementById("myaudio");
-  audio.volume = 0.6;
+  audio.volume = 0.4;
 </script>
 </html>

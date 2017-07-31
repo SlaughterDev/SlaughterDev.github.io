@@ -1,0 +1,174 @@
+<html>
+<body>
+<title></title>
+<audio autoplay id="myaudio">
+    <source src="BGMusic.mp3">
+ </audio>
+<h2>Aabis</h2>
+<textarea class="form-group" style="width:100%;height:80%;background-color:black;color:white; !important;" readonly="readonly">
+-----------------------{Contents}----------------------- 
+
+0x1: Notes
+0x2: Main
+0x3: Mother
+0x4: Father
+ 
+-----------------------{Notes}----------------------- 
+
+- http://prntscr.com/fzpk0s Harrassing
+
+-----------------------{Main}-----------------------
+
+Aliases............: neenger                                                   
+
+Name...............: Anthony Jose Nieves
+Date of Birth......: 
+Address............: 403 Washington Street Apt B, Brookline MA 02446-6117 USA
+Phone Number(s)....: (617) 935-5959 (Personal)
+...................: (617) 731-3547 (Home)
+Picture(s).........: http://prntscr.com/fzr2rg
+...................: 
+...................: 
+...................: 
+
+Facebook...........: 
+Email(s)...........: anthonynieves45@gmail.com
+...................: jose45nieves@hotmail.com
+...................: 
+Skype(s)...........: anthony.nieves44
+...................: iwillalwaysloverachel
+...................: rachisbae
+...................: live:anthonynieves45
+Twitter............: @neenger (https://twitter.com/neenger)
+Snapchat...........: anthonygoeshard
+Instagram..........: 
+
+https://www.youtube.com/user/Neenger
+https://sourceforge.net/u/neenger/profile/
+https://ask.fm/neenger
+
+
+-----------------------{Mother}-----------------------
+
+Name...............: Patrica Ann Nieves | Patricia Ann Scialdone 
+Date of Birth......: September, 1966 (50)
+Address............: 403 Washington Street Apt B, Brookline MA 02446-6117 USA
+Phone Number(s)....: (617) 935-5999
+Picture(s).........: 
+...................: 
+...................: 
+...................: 
+
+Facebook...........: 
+Email(s)...........: 
+...................: patricia.nieves1018@gmail.com
+...................: 
+Skype(s)...........: 
+...................: 
+...................: 
+
+-----------------------{Father}-----------------------
+
+Name...............: Jose Nieves
+Date of Birth......: September, 1966 (50)
+Address............: 403 Washington Street Apt B, Brookline MA 02446-6117 USA
+Phone Number(s)....: (617) 731-3547
+Picture(s).........: 
+...................: 
+...................: 
+...................: 
+
+Facebook...........: 
+Email(s)...........: 
+...................: jose.nieves@comcast.net
+...................: 
+Skype(s)...........: 
+...................: 
+...................:  
+
+
+-----------------------{Grandma}-----------------------
+
+Name...............: Lauren A Tse
+Address............: 171 Swanton St, Unit 38, Winchester, MA 01890
+Phone Number(s)....: (781) 472-9919 
+Picture(s).........: 
+...................: 
+...................: 
+...................: 
+
+Facebook...........: 
+Email(s)...........: 
+...................: 
+...................: 
+Skype(s)...........: 
+...................: 
+...................: 
+</textarea>
+</form> 
+	
+<style>
+h1 {
+    color: white;
+	font-size: 3rem;
+	text-align: center;
+}
+h2 {
+    color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+h3 {
+    color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+body {
+ background-color: black;
+ background-image: url("https://image.prntscr.com/image/39BMVjklQ7aX-P8wPAd_Aw.png");
+ background-repeat: no-repeat;
+ background-position: center;
+}
+}
+a:link {
+    color: white;
+	text-decoration: underline;
+}
+a:visited {
+    color: #BA0000;
+	text-decoration: underline;
+}
+a:hover {
+    color: #BA0000;
+	text-decoration: underline;
+}
+a:active {
+    color: #BA0000;
+	text-decoration: underline;
+}
+</style>
+
+<script type="text/javascript">
+if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", function() {
+        loaded();
+    });
+} else if (document.attachEvent) {
+    document.attachEvent("onreadystatechange", function() {
+        loaded();
+    });
+}
+function loaded() {
+    setInterval(loop, 250);
+}
+var x = 0;
+var titleText = [ "☠", "☠S", "☠Sl", "☠Sla", "☠Slau", "☠Slaug", "☠Slaugh", "☠Slaught", "☠Slaughte", "☠Slaughter", "☠Slaughter☠"];
+function loop() {
+    document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
+}
+</script>
+
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.3;
+</script>

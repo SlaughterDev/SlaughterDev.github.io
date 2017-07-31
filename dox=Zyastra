@@ -1,0 +1,174 @@
+<html>
+<body>
+<title></title>
+<audio autoplay id="myaudio">
+    <source src="BGMusic.mp3">
+ </audio>
+<h2>Zyastra</h2>
+<textarea class="form-group" style="width:100%;height:80%;background-color:black;color:white; !important;" readonly="readonly">
+#Real Name: 
+Dominic Barghini
+
+#Age: 
+16
+
+#Phone Number(s): 
+(513) 913-2751
+
+#Address: 
+1313 Woodlake Ct, Loveland, OH 45140, USA
+
+#Pics: 
+http://i.imgur.com/hA5gQfU.png
+http://i.imgur.com/tPmx5DF.png
+http://imgur.com/sGdTMnu.png
+
+#Alias(es):
+Zyastra
+dom_is_a_ninja
+
+#Email(s): 
+edgyminecrafter1@gmail.com 
+dominicbarghini@gmail.com
+
+#Ip(s):
+74.83.195.2
+
+#Frequent Passwords:
+dominic13
+
+#Other:
+https://www.facebook.com/dominic.barghini
+https://namemc.com/profile/zyastra.8
+https://twitter.com/z_yastra
+snapchat = dombarg
+
+███████████████████████████████████████���████████    Mother    ███████████████████████████████████████████████
+#Real Name: 
+Diane Portnber Barghini
+Diane Stinson
+
+#Age: 
+55-64
+
+#Phone Number(s):  
+513-309-6527
+
+#Landline(s): 
+513-583-5566
+
+#Address: 
+1313 Woodlake Ct, Loveland, OH 45140, USA
+
+#Pics: 
+https://www.facebook.com/dbarghini
+
+#Alias(es):
+dbarghini
+dianebarghini
+
+#Email(s): 
+dbarghini@cinci.rr.com
+Barghinid@gmail.com
+dianebarghini@gmail.com
+
+#Frequent Passwords:
+N/A
+
+████████████████████████████████████████████████    Father    ███████████████████████████████████████████████
+#Real Name: 
+Richard Barghini
+
+#Age: 
+55-64
+
+#Phone Number(s):  
+513-309-6527
+
+#Landline(s): 
+513-583-5566
+
+#Address: 
+1313 Woodlake Ct, Loveland, OH 45140, USA
+
+#Pics: 
+N/A
+
+#Alias(es): 
+N/A
+
+#Email(s): 
+dbarghini@cinci.rr.com
+Barghinid@gmail.com
+dianebarghini@gmail.com
+
+#Frequent Passwords:
+N/A
+</textarea>
+</form> 
+	
+<style>
+h1 {
+    color: white;
+	font-size: 3rem;
+	text-align: center;
+}
+h2 {
+    color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+h3 {
+    color: white;
+	font-size: 2rem;
+	text-align: center;
+}
+body {
+ background-color: black;
+ background-image: url("https://image.prntscr.com/image/39BMVjklQ7aX-P8wPAd_Aw.png");
+ background-repeat: no-repeat;
+ background-position: center;
+}
+}
+a:link {
+    color: white;
+	text-decoration: underline;
+}
+a:visited {
+    color: #BA0000;
+	text-decoration: underline;
+}
+a:hover {
+    color: #BA0000;
+	text-decoration: underline;
+}
+a:active {
+    color: #BA0000;
+	text-decoration: underline;
+}
+</style>
+
+<script type="text/javascript">
+if (document.addEventListener) {
+    document.addEventListener("DOMContentLoaded", function() {
+        loaded();
+    });
+} else if (document.attachEvent) {
+    document.attachEvent("onreadystatechange", function() {
+        loaded();
+    });
+}
+function loaded() {
+    setInterval(loop, 250);
+}
+var x = 0;
+var titleText = [ "☠", "☠S", "☠Sl", "☠Sla", "☠Slau", "☠Slaug", "☠Slaugh", "☠Slaught", "☠Slaughte", "☠Slaughter", "☠Slaughter☠"];
+function loop() {
+    document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
+}
+</script>
+
+<script>
+  var audio = document.getElementById("myaudio");
+  audio.volume = 0.3;
+</script>

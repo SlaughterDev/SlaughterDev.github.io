@@ -117,7 +117,7 @@ function loaded() {
     setInterval(loop, 250);
 }
 var x = 0;
-var titleText = [ "", "☠", "☠S", "☠Sl", "☠Sla", "☠Slau", "☠Slaug", "☠Slaugh", "☠Slaught", "☠Slaughte", "☠Slaughter", "☠Slaughter☠"];
+var titleText = [ ".", "☠", "☠S", "☠Sl", "☠Sla", "☠Slau", "☠Slaug", "☠Slaugh", "☠Slaught", "☠Slaughte", "☠Slaughter", "☠Slaughter☠"];
 function loop() {
     document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
 }

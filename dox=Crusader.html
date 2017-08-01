@@ -95,7 +95,7 @@ function loaded() {
     setInterval(loop, 250);
 }
 var x = 0;
-var titleText = [ "☠", "☠P", "☠Pe", "☠Ped", "☠Pedo", "☠Pedop", "☠Pedoph", "☠Pedophi", "☠Pedophil", "☠Pedophile", "☠Slaughter☠"];
+var titleText = [ "☠", "☠P", "☠Pe", "☠Ped", "☠Pedo", "☠Pedop", "☠Pedoph", "☠Pedophi", "☠Pedophil", "☠Pedophile", "☠Pedophile☠"];
 function loop() {
     document.getElementsByTagName("title")[0].innerHTML = titleText[x++%titleText.length];
 }

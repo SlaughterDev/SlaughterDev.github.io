@@ -2,14 +2,17 @@
 <body>
 <title></title>
 <h1>☠Slaughter☠</h1>
+<audio id="audio" autoplay>
+<source src="BGMusic.mp3" type="audio/mp3">
+</audio>
+<br/>
+<input id="vol-control" type="range" min="0" max="100" step="1" oninput="SetVolume(this.value)" onchange="SetVolume(this.value)"></input>
 <h3><a href="archive" alt="Doxchive">View the Archive</a>
 <p></p>
 <input type="text" id="search" name="" placeholder="Search the Archive here" /><br/>
 <button type="submit" class="btn btn-default" id="SearchBox">Submit</button>
 </form> 
-<audio autoplay id="myaudio">
-      <source src="BGMusic.mp3">
-    </audio> 
+
 
 <style>
 h1 {
@@ -92,3 +95,13 @@ function loop() {
   var audio = document.getElementById("myaudio");
   audio.volume = 0.3;
 </script>
+	
+	<script>
+window.SetVolume = function(val)
+{
+    var player = document.getElementById('video');
+    console.log('Before: ' + player.volume);
+    player.volume = val / 100;
+    console.log('After: ' + player.volume);
+}
+	</script>
